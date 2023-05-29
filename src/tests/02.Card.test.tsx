@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react';
-import Card from '../components/Card';
+import Card from '../components/card';
 
 const infoRioDeJaneiro = {
   city: 'Rio de Janeiro',

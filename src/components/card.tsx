@@ -15,7 +15,7 @@ function Card({ cityInfo }: CardProps) {
       <div className="card-info">
         <h3>{city}</h3>
         <p>{country}</p>
-        {visited ? <p>Já Fui!</p> : <p className="red">Não fui!</p>}
+        {visited ? <p>Já Fui!</p> : <p>Não fui!</p>}
       </div>
     </div>
   );

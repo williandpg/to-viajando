@@ -1,3 +1,5 @@
+import Card from './card';
+
 const infoRioDeJaneiro = {
   city: 'Rio de Janeiro',
   country: 'Brasil',
@@ -21,7 +23,9 @@ const infoAcapulco = {
 function CardList() {
   return (
     <div className="card-list">
-      {/* Renderize os cards aqui */}
+      <Card cityInfo={ infoRioDeJaneiro } />
+      <Card cityInfo={ infoCidadeDoCabo } />
+      <Card cityInfo={ infoAcapulco } />
     </div>
   );
 }

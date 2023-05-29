@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/react';
 import App from '../App';
-import Header from '../components/Header';
+import Header from '../components/header';
 
 describe('1 - Crie o componente `<Header />`', () => {
   it("O componente possui uma tag `h1` com o texto 'Tô viajando?'", () => {
