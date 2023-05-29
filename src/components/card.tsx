@@ -8,7 +8,7 @@ type CardProps = {
 };
 
 function Card({ cityInfo }: CardProps) {
-  const { city, country, imageUrl, visited } = cityInfo;
+  const { city, country, visited = false, imageUrl } = cityInfo;
   return (
     <div className="card">
       <img src={ imageUrl } alt={ city } />
