@@ -1,6 +1,8 @@
 function Header() {
   return (
-    <h1>Tô Viajando?</h1>
+    <header>
+      <h1>Tô Viajando?</h1>
+    </header>
   );
 }
 

@@ -4,10 +4,12 @@ import CardList from './components/CardList';
 
 function App() {
   return (
-    <main>
+    <>
       <Header />
-      <CardList />
-    </main>
+      <main>
+        <CardList />
+      </main>
+    </>
   );
 }
 
